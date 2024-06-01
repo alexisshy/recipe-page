@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'outfit';
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: hsl(30, 54%, 90%);
+    
+}
+
+.card {
+    padding: 25px;
+}
+.container {
+    margin: 0 auto;
+    max-width: 900px;
+    background-color: #fff;
+}
+img {
+    max-width: 100%;
+    
+}
+
+.intro {
+    padding-bottom: 2rem;
+}
+
+ul, ol {
+    padding-left: 20px;
+}
+
+p, li {
+    line-height: 1.6;
+    color: hsl(30, 10%, 34%);
+}
+
+ h1 {
+    color: black;
+    margin-bottom: 1rem;
+    font-family: 'Young Serif', sans-serif;
+}
+
+h2 {
+    font-family: 'Young Serif';
+    color: hsl(332, 51%, 32%);
+    letter-spacing: 0.05rem;
+}
+
+h3 {
+    color: hsl(332, 51%, 32%);
+    margin-bottom: 0.5rem;
+}
+
+p, li {
+    line-height: 1.6;
+}
+
+.instructions {
+    border-top: 1px solid hsl(30, 18%, 87%);
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+    padding-bottom: 20px;
+    padding-top: 20px;
+    
+
+}
+
+.prep-time {
+    margin: ;
+    background-color:  hsl(330, 100%, 98%);
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    line-height: ;
+}
+
+.ingredients {
+    line-height: 2;
+    margin: 20px;
+}
+
+.nutrition {
+    padding-top: 1rem;
+}
+
+
+.nutrition p {
+    padding-top: 0.5rem;
+}
+table {
+    width: 100%;
+    margin: 20px 0;
+}
+
+tr {
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+th {
+    font-weight: 300;
+}
+
+th, td {
+    padding: 0.5rem 1rem;
+    text-align: left;
+}
+
+td {
+    color: hsl(332, 51%, 32%);
+    font-weight: 600;
+}
+
+@media (min-width: 600px) {
+    .container {
+        margin: 5rem auto 0;
+        padding: 2rem;
+        border-radius: 1rem;
+    }
+
+    .intro h1{
+        ;
+    }
+
+    img {
+        border-radius: 1rem;
+    }
+}
