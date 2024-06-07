@@ -6,23 +6,23 @@
 
 body {
     font-family: 'outfit';
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 1.5;
     background-color: hsl(30, 54%, 90%);
-    
 }
 
 .card {
-    padding: 25px;
+    padding: 1.5625rem;
 }
+
 .container {
     margin: 0 auto;
     max-width: 900px;
     background-color: #fff;
 }
+
 img {
     max-width: 100%;
-    
 }
 
 .intro {
@@ -30,7 +30,7 @@ img {
 }
 
 ul, ol {
-    padding-left: 20px;
+    padding-left: 1.25rem;
 }
 
 p, li {
@@ -61,24 +61,20 @@ p, li {
 
 .instructions {
     border-top: 1px solid hsl(30, 18%, 87%);
-    border-bottom: 1px solid hsl(30, 18%, 87%);
-    padding-bottom: 20px;
-    padding-top: 20px;
-    
-
+    border-bottom: 0.0625rem solid hsl(30, 18%, 87%);
+    padding-bottom: 1.25rem;
+    padding-top: 1.25rem;
 }
 
 .prep-time {
-    margin: ;
     background-color:  hsl(330, 100%, 98%);
     border-radius: 0.5rem;
     padding: 1.5rem;
-    line-height: ;
 }
 
 .ingredients {
     line-height: 2;
-    margin: 20px;
+    margin: 1.25rem;
 }
 
 .nutrition {
@@ -91,11 +87,11 @@ p, li {
 }
 table {
     width: 100%;
-    margin: 20px 0;
+    margin: 1.25rem 0;
 }
 
 tr {
-    border-bottom: 1px solid hsl(30, 18%, 87%);
+    border-bottom: 0.0625rem solid hsl(30, 18%, 87%);
 }
 
 th {
@@ -117,11 +113,7 @@ td {
         margin: 5rem auto 0;
         padding: 2rem;
         border-radius: 1rem;
-    }
-
-    .intro h1{
-        ;
-    }
+}
 
     img {
         border-radius: 1rem;
